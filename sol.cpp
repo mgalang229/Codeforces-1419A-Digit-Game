@@ -28,7 +28,7 @@ int main() {
 		} else {
 			// otherwise, if 'n' (number of digits) is even, then check if there is an even
 			// number in an even position, because Breach can choose this as the last number, since
-			// and even number of digits would always make Breach the last turn
+			// an even number of digits would always make Breach the last turn
 			bool checker = false;
 			for (int i = 0; i < n; i++) {
 				// check if an even number exists in an even position
